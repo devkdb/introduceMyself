@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="styleSheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="introduce" data-category="">
+        <div class="profile">
+          <img src="/img/Sadu.jpg" />
+          <div class="name-container">
+            <h1 class="name">김두봉</h1>
+            <div class="following">팔로잉</div>
+          </div>
+          <div class="buttons">
+            <button id="like">좋아요 0</button>
+            <button id="follow">팔로우</button>
+            <button id="interaction">인터랙션</button>
+          </div>
+        </div>
+        <div>
+          <h2>MBTI</h2>
+          <span>제 MBTI는 수호자(ISFJ-T) 입니다.</span>
+        </div>
+        <div>
+          <h2>좋아하는 음악</h2>
+          <span
+            >요즘 <strong class="show-image Mozart">Mozart Brain Power</strong>라는 Classical Music
+            을 즐겨 듣고 있습니다.</span
+          >
+        </div>
+        <div>
+          <h2>좋아하는 음식</h2>
+          <span><strong class="show-image WangGalbiTang">왕갈비탕</strong>을 좋아합니다.</span>
+        </div>
+        <div>
+          <h2>싫어하는 음식</h2>
+          <span>예전에는 다 잘 먹었는데, 요즘엔 건강을 생각해서 몸에 안 좋다 생각드는 것은 안 먹습니다.</span>
+        </div>
+        <div>
+          <h2>취미</h2>
+          <span>예전엔 살사 댄스를 했었고, 요즘엔 취업 준비 중이라 취미 활동은 없습니다.</span>
+        </div>
+        <div id="description">
+          <i class="close fa-solid fa-xmark"></i>
+          <p>
+            인터렉션 1: 좋아요를 누르면 좋아요 수가 올라가고 좋아요 수 10단위 마다 버튼의 배경색이
+            바뀝니다.
+          </p>
+          <p>인터렉션 2: 팔로우 버튼을 누르면 팔로우되며 팔로우 취소 버튼으로 바뀝니다.</p>
+          <p>
+            인터렉션 3: 파란색으로 강조된 텍스트를 누르면 이에 해당하는 이미지가 옆에 표시되고
+            화살표를 통해 이미지를 넘길 수 있습니다.
+          </p>
+        </div>
+      </section>
+      <section id="img-container">
+        <div>
+          <i class="fa-solid fa-chevron-left icon"></i>
+          <img id="image" />
+          <i class="fa-solid fa-chevron-right icon"></i>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
