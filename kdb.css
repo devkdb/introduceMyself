@@ -1,0 +1,101 @@
+/* 크롬등의 웹브라우저 자체 css 적용을 reset한다. */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;  
+}
+
+/* em:부모요소의 폰트 사이즈에 의해 자식요소의 폰트 사이즈가 결정
+rem: "Root + em" Root의 폰트 사이즈에 의해 결정되는 방식. */
+
+html{
+  font-size:16px;
+  /* width:1920px; */
+}
+
+a {
+  text-decoration-line: none;  
+}
+
+.signup-layer{  
+  /* background-color: #f10d0d;  */
+  width: 640px;
+  height: 842px;
+  opacity: 0px;  
+  margin-top: 231px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.signup-section1-layer{
+  /* background-color: #f1cf0d;  */  
+  width:100%;
+  height: 172px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;   
+  align-items:start;
+  /* gap:16px; */    
+}
+
+#signup-panda-logo {
+  width: 396px;  
+  /* width: 61.87%;  */
+  height:132px;
+}
+
+#signup-panda-logo:hover {
+  /* background-color: #ffffff;
+  color: #000000; */
+  cursor:pointer;
+}
+
+.signup-section2-layer{  
+  /* background-color: #33f10d;  */
+  width:100%;
+  height: 548px;
+}
+
+form {
+  /* margin: 16px auto; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-around; */
+  /* align-items:center; */
+  gap:24px; 
+}
+
+.signup-label{
+  width:100%;
+  /* height: 42px; */
+  /* gap:10px; */
+  color: #1F2937;
+  font-weight: 700;
+  /* font-size: 18px;
+  line-height: 21.48px; */
+  font-size: 1.125rem;
+  /* line-height: 1.343rem; */
+  line-height: 1.2rem;
+  text-align:start;
+  /* display: block; */  
+}
+
+.signup-input {  
+  width: 100%;
+  /* height: 56px; */
+  border-radius:12px;
+  padding:16px 24px 16px 24px;
+  /* gap:10px; */
+  background-color: #F3F4F6;
+  color: #9CA3AF;
+  /* display: block; */
+  /* font-size: 16px;
+  line-height: 26px; */
+  font-weight: 400;
+  font-size: 1rem;
+  /* line-height: 1.3rem;   */
+  line-height: 1.2rem;
+  text-align:start;
+  border-width:0;  
+}
